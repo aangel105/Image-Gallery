@@ -10,7 +10,7 @@ html {
 body {
   background-color: var(--primary-color);
   --primary-color: black;
-  --text-color: white;
+  --secondary-color: white;
   --special-color: rgba(57, 230, 230, 0.5);
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .day {
-  background-color: var(--text-color);
+  background-color: var(--secondary-color);
 }
 
 .regular {
@@ -51,7 +51,7 @@ body {
   letter-spacing: 1.5px;
   border-radius: 50px;
   background-color: transparent;
-  color: var(--text-color);
+  color: var(--secondary-color);
   box-shadow: 0px -1px 10px 2px var(--special-color);
   border: 2px solid transparent;
 }
@@ -86,7 +86,7 @@ body {
 }
 
 h1 {
-  color: var(--text-color);
+  color: var(--secondary-color);
   text-align: center;
   font-family: "Prociono", serif;
   font-weight: bold;
@@ -109,19 +109,33 @@ span {
   padding: 20px 20px 10px 20px;
   box-shadow: 0px -1px 15px 0px var(--special-color);
   border-radius: 4%;
+  
 }
 
 .img-gallery img {
   display: block;
   opacity: 0.6;
   filter: alpha(opacity= 60%);
+  animation-name: images;
+  animation-delay: -2ms;
+  animation-duration: 3000ms;
+}
+
+@keyframes images {
+  0% {
+    transform: translateY(-1300px) rotateY(0deg);
+  }
+
+  100% {
+    transform: translateY(0px) rotateY(360deg);
+  }
 }
 
 .img-gallery p {
   text-align: center;
   font-size: 15px;
   padding-top: 10px;
-  color: var(--text-color);
+  color: var(--secondary-color);
   font-family: "Prociono", serif;
   font-weight: bold;
   letter-spacing: 1.2px;
@@ -129,6 +143,7 @@ span {
 
 .img-gallery img:hover {
   opacity: 1;
+  transform: rotateY(180deg);
   filter: alpha(opacity= 100%);
   transition: ease-in-out;
   transition-duration: 2000ms;
@@ -141,7 +156,7 @@ span {
   width: 100%;
   height: 45px;
   background-color: var(--primary-color);
-  color: var(--text-color);
+  color: var(--secondary-color);
   text-align: center;
   padding: 10px;
   margin: 10px;
@@ -211,7 +226,7 @@ span {
   }
 
   h1 {
-    color: var(--text-color);
+    color: var(--secondary-color);
     text-align: center;
     padding: 12px;
     margin: 10px;
@@ -261,7 +276,7 @@ span {
     width: 100%;
     height: 45px;
     background-color: var(--primary-color);
-    color: var(--text-color);
+    color: var(--secondary-color);
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -309,7 +324,7 @@ span {
     letter-spacing: 1.5px;
     border-radius: 50px;
     background-color: transparent;
-    color: var(--text-color);
+    color: var(--secondary-color);
     box-shadow: 0px -1px 10px 2px var(--special-color);
     border: 2px solid transparent;
   }
@@ -331,7 +346,7 @@ span {
   }
 
   h1 {
-    color: var(--text-color);
+    color: var(--secondary-color);
     text-align: center;
     padding: 12px;
     margin: 10px;
@@ -376,7 +391,7 @@ span {
     width: 100%;
     height: 45px;
     background-color: var(--primary-color);
-    color: var(--text-color);
+    color: var(--secondary-color);
     text-align: center;
     padding: 10px;
     margin: 10px;

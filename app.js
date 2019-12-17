@@ -18,12 +18,14 @@ function night() {
   $(".footer").css("backgroundColor", "black");
 }
 
-$(function() {
-  $("#btn-night").click(function() {
-    night();
-  });
+$(document).ready(function() {
+  $(function() {
+    $("#btn-night").click(function() {
+      night();
+    });
 
-  $("#btn-day").click(function() {
-    day();
+    $("#btn-day").click(function() {
+      day();
+    });
   });
 });
