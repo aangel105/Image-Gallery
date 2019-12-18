@@ -162,6 +162,7 @@ span {
   text-align: center;
   padding: 10px;
   margin: 10px;
+  margin-left: 0px;
   font-size: 15px;
   font-family: "Prociono", serif;
   font-weight: bold;
@@ -285,6 +286,7 @@ span {
     text-align: center;
     padding: 10px;
     margin: 10px;
+    margin-left: 0px;
     font-size: 15px;
     font-family: "Prociono", serif;
     font-weight: bold;
@@ -402,6 +404,7 @@ span {
     text-align: center;
     padding: 10px;
     margin: 10px;
+    margin-left: 0px;
     font-size: 15px;
     font-family: "Prociono", serif;
     font-weight: bold;
