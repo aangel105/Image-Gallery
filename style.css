@@ -92,12 +92,16 @@ h1 {
   text-align: center;
   font-family: "Prociono", serif;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px var(--special-color);
+  margin-bottom: 8px;
 }
 
 span {
   padding: 5px;
-  margin: 10px;
+  margin: 15px;
   font-size: 1.7rem;
   color: var(--special-color);
 }
@@ -238,6 +242,9 @@ span {
     font-family: "Prociono", serif;
     font-weight: bold;
     font-size: 1.7rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px var(--special-color);
   }
 
   span {
@@ -360,7 +367,10 @@ span {
     margin: 10px;
     font-family: "Prociono", serif;
     font-weight: bold;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px var(--special-color);
   }
 
   span {
