@@ -5,7 +5,7 @@ function day() {
   $("#btn-night").css("color", "black");
   $("#btn-day").css("color", "black");
   $("p").css("color", "black");
-  $(".footer").css("backgroundColor", "white");
+  $(".footer").css("backgroundColor", "rgb(98, 98, 98)");
 }
 
 function night() {
